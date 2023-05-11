@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    background-image: url(https://images.unsplash.com/photo-1659034638032-3a0e9b7ac8d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(0.3px);
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.459); */
+    background: linear-gradient(
+        rgba(165, 42, 42, 0.692),
+        rgba(255, 0, 0, 0.555),
+        rgba(0, 128, 0, 0.479)
+    );
+}
+
+nav{
+    width: 100%;
+    height: 15%;
+    /* background-color: red; */
+    padding: 2vmax 0 0 5vmax;
+}
+
+nav > h1{
+    font: 500 3vmax "oswald";
+    color: white; 
+    font-style: italic;   
+    text-shadow:0 0 20px rgb(245, 248, 65);
+}
+
+.one > h1{
+    /* color: rgba(124, 11, 238, 0.986); */
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    padding: 0.5vmax 1vmax;
+    text-decoration: underline;
+}
+
+
+.one > p{
+    font-style: italic;
+    padding: 0.5vmax;
+    letter-spacing: 1.5px;
+
+}
+.one{
+    border-radius: 7px;
+    border: 2px solid white;
+    margin: 2vmax;
+    padding: 1vmax;
+    box-shadow: 0 0 15px rgba(219, 217, 54, 0.9);
+}
+
+button{
+    font: 500 1vmax "lora";
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 1vmax;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(219, 217, 54, 0.9);
+}
+
+

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sidebar{
+    width: 5vmax;
+    height: 5vmax;
+    background-color:rgba(255, 99, 71, 0.815);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+img{
+    width: 50px;
+}
+
+.sidebar::after{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2vmax;
+    content: "hello";
+    width: 5vmax;
+    height: 5vmax;
+    background-color:transparent;
+    color: transparent;
+    position: absolute;
+    transition: 1s ease-in-out all;
+}
+
+.sidebar:hover::after{
+    transform: translatex(7vmax);
+    width: 10vmax;
+    background-color:tomato;
+    color: black;
+}
+
+

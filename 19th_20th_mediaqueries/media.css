@@ -1,0 +1,131 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    
+    /* CSS */
+    
+  }
+  @media (min-width: 0px) and (max-width: 600px) {
+    
+    nav> h1{
+      padding: 4vmax 5vmax;
+      font-size: 5vmax;
+    }
+    .left{
+      padding: 3vmax 0 0 2vmax;
+      /* background-color: red; */
+      width: 100%;
+    }
+    .left >h1{
+      padding: 0 0 1.5vmax 0;
+      font-size: 3.5vmax;
+     
+    }
+    .left>p{
+      padding: 0 0 1.8vmax 0;
+      font-size: 1.9vmax;
+    }
+    button{
+      font-size: 4vmax;
+    }
+    .box{
+      padding: 0 1.2vmax;
+    }
+    .line{
+      display: flex;
+    }
+    .line1{
+      transform-origin: left;
+      transform: rotate(45deg);
+    }
+    .line2{
+      width: 0;
+    }
+    .line3{
+      transform-origin: left;
+      transform: rotate(-45deg);
+    }
+
+    nav>ul{
+      display: none;
+      
+    }
+
+    nav > ul >li{
+      font-size: 1.7vmax;
+      padding: 0 1vmax;
+    }
+    .content{
+      flex-direction: column;
+    }
+  
+    .right > img{
+      width: 200px;
+      margin: 4vmax 0 0 3vmax;
+    }
+
+
+    
+
+    /* CSS */
+    
+  }

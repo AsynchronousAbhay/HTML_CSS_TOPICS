@@ -1,0 +1,57 @@
+/* h1
+{
+    color: red;
+    font-size: 3vmax;
+} */
+
+/* boilerplate */
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;     
+}
+
+html,
+body{
+    width: 100% ;
+    height: 100%;
+}
+
+/* selectors */
+
+#h
+{
+    color: green;
+}
+
+.r
+{
+    color: red;
+}
+
+#fs
+{
+    font-size: 3vmax;
+}
+
+.ls
+{
+    letter-spacing: 2vmax;
+}
+
+.sm 
+{
+    color: blue;
+    font-size: 4vmax ;
+}
+
+p
+{
+    font-size: 16px;
+}
+
+/* measurements */
+/* px % vh vw vmax vmin /1em = 16px = 1rms */
+
+

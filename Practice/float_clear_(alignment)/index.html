@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: "montserrat";
+        }
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+            background-color: rgb(196, 147, 82);
+        }
+
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            color: blue;
+            width: 500px;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        .items{
+            border: 2px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(225, 169, 169);
+        }
+
+        h3{
+            color: rgb(8, 84, 8);
+            font-family: cursive;
+        }
+
+        .para{
+            text-align: justify;
+            color: firebrick;
+            font-style: italic;
+            font-family: cursive;
+        }
+
+        #fruit{
+            float: left;
+            width: 400px;
+        }
+        #computer{
+            float: left;
+            float: right;
+            width: 400px;
+        }
+        #stationary{
+            float: left;
+            clear: left;
+            clear: both;
+        }
+
+        #glasses{
+            clear: both;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to our store!!!</h1>
+        <div id="fruit" class="items">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, veniam nostrum! Reprehenderit aut vel laudantium? Eius quas qui temporibus. In tempore doloribus ratione sit sint est sunt voluptate ipsum omnis.</p>
+        </div>
+        <div id="computer" class="items">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod Lorem ipsum dolor sit amet consectetur adipisicing elit. Est consequatur ipsum enim nam fuga, totam architecto vitae praesentium incidunt velit recusandae suscipit neque voluptate inventore nihil impedit hic atque. Eligendi?</p>
+        </div>
+        <div id="stationary" class="items">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam magnam sapiente nemo. Culpa, minima fugiat possimus aspernatur facere quam autem quia nihil nam eum similique assumenda illum, recusandae ut.</p>
+        </div>
+        <div id="glasses" class="items">
+            <h3>Glasses</h3>
+            <p id="glassespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam magnam sapiente nemo. Culpa, minima fugiat possimus aspernatur facere quam autem quia nihil nam eum similique assumenda illum, recusandae ut.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    font: 400 2vmax "montserrat";
+    background-color: royalblue;
+    color: white;
+    padding: 1vmax 2vmax;
+    border-radius: 40px;
+    position: relative;
+    border: none;
+}
+
+
+/* button::before{
+    content: 'hello-';
+} */
+
+/* button::after {
+    content: "-hello";
+}  */
+
+button::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color:royalblue;
+    position: absolute;
+    border-radius: 40px;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    transition: 0.2s ease-in-out all;
+}
+
+button:hover::before{
+    transform: scale(1.3);
+    opacity: 0;
+}

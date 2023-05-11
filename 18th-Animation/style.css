@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    width: 10vmax;
+    height: 10vmax;
+    background-color: red;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    animation: move 2s linear 0.3s infinite both ;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes move {
+    /* from{
+        top: 0%;
+        left: 0%;
+    }
+
+
+    to{
+        top: 0%;
+        left: 100%;
+    } */
+
+    0%{
+        top: 0%;
+        left: 0%;
+    }
+
+    25%{
+        top: 0%;
+        left: 70%;
+    }
+
+    50%{
+        top: 70%;
+        left: 70%;
+    }
+
+    75%{
+        top: 70%;
+        left: 0%;
+    }
+
+    100%{
+        top: 0%;
+        left: 0%;
+    }
+
+
+}

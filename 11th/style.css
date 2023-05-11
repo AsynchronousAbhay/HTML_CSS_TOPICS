@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 228, 196, 0.671);
+}
+
+.container{
+    overflow: hidden;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    position: relative;
+    background-color: white;
+    padding: 4vmax 0 0 10vmax;
+    box-shadow: -6px -6px 7px rgb(189, 184, 184);
+    border-radius: 5px;
+}
+
+.logo{
+    margin: 2vmax 0 2vmax 0;
+    font-size: 2vmax;
+}
+
+.heading{
+    margin: 3.5vmax 0 2vmax 0;
+    font: 600 4vmax "Cormorant SC" ;
+}
+
+hr{
+    height: 0.5%;
+    width: 30%;
+    margin: 0 0 2vmax 0;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.164);
+}
+
+
+p{
+    margin: 0 0 2vmax 0;
+    font: 300 1.4vmax "Cormorant SC" ;
+
+}
+
+img{
+    width: 400px;
+}
+
+.image2{
+    position: absolute;
+    left: 50%;    
+}
