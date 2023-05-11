@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(20, 19, 1, 0.733);
+    position: relative;
+}
+
+.h{
+    height: 10%;
+    width: 100%;
+    color: white;
+    padding-left: 2vmax;
+    padding-top: 2vmax;
+    font: 700 2vmax "Cormorant SC";
+    padding: 1vmax 0 1vmax 1vmax;
+
+}
+
+span{
+    color: white;
+    position: absolute;
+    left: 92%;
+    top: 3%;
+    border: 3px solid white;
+    border-radius: 3px;
+    padding: 2px 4px;
+    
+}
+
+.box{
+    position: relative;
+    height: 35vmax;
+    width: 100vmax;
+    background-color: rgba(255, 255, 255, 0.795);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.p{
+    color: black;
+    /* text-align: center; */
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.box > h1{
+    font: 700 2.5vmax "Cormorant SC";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+
+}
+
+.content{
+    height: 90%;
+    width: 100%;
+    position: relative;
+}
+
+.content > h1{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.content > p{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+
+

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sidebar{
+    width: 5vmax;
+    height: 3vmax;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+h1{
+    font-size: 1vmax;
+}
+
+.sidebar::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "Hello";
+    position: absolute;
+    background-color: rgba(0, 128, 0, 0.692);
+    width: 10vmax;
+    height: 3vmax;
+    left: -10vmax;
+    transition: 0.25s ease-in-out all;
+}
+
+.sidebar:hover::after{
+    left: 0%;
+    transform: translatex(5vmax);
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sidebar{
+    width: 6vmax;
+    height: 5vmax;
+    background-color: rgba(127, 255, 212, 0.74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+img{
+    width: 50px;
+}
+
+.sidebar::after{
+    content: "Mahadev";
+    width: 6vmax;
+    height: 5vmax;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(127, 255, 212, 0.74);
+    transition: 0.5s ease-in-out 0.2s all ;
+    margin-left: -13vmax;
+    color: rgb(192, 57, 8);
+    font: 500 1.5vmax "montserrat";
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sidebar:hover::after{
+    width: 10vmax;
+    margin-left: 14vmax;
+}

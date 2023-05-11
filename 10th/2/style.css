@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+.top {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(75, 74, 74);
+    position: relative;
+}
+
+.top > h1 {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+
+.top > button {
+    position: absolute;
+    top: 40%;
+    right: 1%;
+}
+
+.middle {
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+
+/* h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
+.middle > h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sutitle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h2 {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.date {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.foot {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(75, 74, 74);
+}

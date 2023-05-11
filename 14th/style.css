@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 15vmax;
+    height: 15vmax;
+}
+
+.red
+{
+    background-color: red;
+    /* transform: translate(-50%,-50%); */
+    /* transform: translatex(-50%); */
+    /* transform: rotate(-50deg); */
+    /* transform: rotateX(50deg); */
+    /* transform: rotate(50deg) translate(100px,0); */
+    /* transform: scale(2); */
+    /* transform: rotate() translate() scale() skew(); */
+    /* transform: skew(10deg,30deg); */
+    /* transition: time delay timingfunction forwhichproperty; */
+    transform: rotate(0deg);    
+    /* transition: 1s 1s linear all;*/
+    /* transition: 3s linear all; */
+    /* transition: 3s ease-out all; */
+    /* transition: 3s ease-in all; */
+    transition: 2s cubic-bezier(0.04, 1.5, 0.76, -0.69) transform;
+    /* transition: 3s linear background-color, 1s linear transform; */
+}
+
+/* ----seudo classes--- */
+
+.red:hover{ 
+    transform: rotate(45deg);
+    background-color: blue;
+}
+
+
+.green{
+    background-color: green;
+}

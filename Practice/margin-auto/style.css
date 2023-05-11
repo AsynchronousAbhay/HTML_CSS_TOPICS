@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.container{
+    min-height: 100vh;
+    width: 70vw;
+    color: white;
+    background-color: brown;
+    margin: 1vmax auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
